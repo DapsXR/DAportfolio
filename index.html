@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Global</title>
+  <title>DA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="HTML5 website template">
   <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
+  <meta name="author" content="Dapo Ajisafe">
   <link rel="stylesheet" href="assets/css/main.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
 
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
   <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
+    <img src="assets/img/D.png" alt="Global">
+    <p>Dapo Ajisafe, Software Developer</p>
   </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+  <p class="device-notification--message">This site is best viewed on Laptop/Desktop please try it there.</p>
 </div>
 
 <div class="perspective effect-rotate-left">
@@ -27,10 +28,9 @@
       <div class="l-wrapper">
         <header class="header">
           <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>Global</p>
+            <img src="/assets/img/D.png">
           </a>
-          <button class="header--cta cta">Hire Us</button>
+          <button class="header--cta cta">Hire Me</button>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -41,15 +41,34 @@
             <li><span>Works</span></li>
             <li><span>About</span></li>
             <li><span>Contact</span></li>
-            <li><span>Hire us</span></li>
+            <li><span>Hire me</span></li>
           </ul>
         </nav>
         <ul class="l-main-content main-content">
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
-                <h1>Your next<br>interactive<br>experience</h1>
-                <button class="cta">Hire Us
+                <div class="text">
+                <h1>Your next<br>Immersive<br>Web Developer</h1>
+                </div>
+                <model-viewer 
+                bounds="tight"
+                enable-pan
+                src="/assets/3D/HIREME.glb" 
+                alt="Daps Waving" 
+                disable-zoom
+                interaction-prompt="none"
+                shadow-intensity="0" 
+                intesity="1" 
+                camera-controls="" 
+                interaction-prompt="auto"
+                camera-orbit="15deg 85deg 2.5m" min-camera-orbit="auto 74deg 5.063m" max-camera-orbit="auto 117deg auto" min-field-of-view="20deg" 
+                autoplay
+                ar
+                ar-modes="scene-viewer quick-look"
+                >
+                </model-viewer>
+                <button class="cta">Hire Me
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
                     <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
@@ -57,20 +76,22 @@
                   </svg>
                   <span class="btn-background"></span>
                 </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
+              </div> 
               <div class="intro--options">
                 <a href="#0">
-                  <h3>Metiew &amp; Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                  <h3>Creative Flair</h3>
+                  <p>I'm not a designer or artist by any means but I appreciate and strive for an engaging and 
+                    intriguing aesthetic and know how to source and piece things together.</p>
                 </a>
                 <a href="#0">
-                  <h3>Fantasy interactive</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                  <h3> Interactive Content</h3>
+                  <p>3D is essential in this new internet paradigmn and at the core of it is interactivty. I want to bring 
+                    products, information, and ideas to life by adding a new dimension to content.
+                  </p>
                 </a>
                 <a href="#0">
-                  <h3>Paul &amp; shark</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                  <h3>Minimalist Design</h3>
+                  <p>I aim to create products that say less and promote you to do more.</p>
                 </a>
               </div>
             </div>
@@ -81,30 +102,30 @@
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-left">
-                    <a href="#0">
+                    <a href="https://www.emmarye.com">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
+                        <img src="assets/img/er.jpg" alt="EmmaRye">
                       </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">VR Healhtech Website</p>
+                      <p class="slider--item-description">Another business I'm part of which honed my XR skills. EmmaRye is a gamified MRI Simualtor to reduce fear and anxiety and train kids to be still during an MRI.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a href="#0">
+                    <a href="https://cx-rethinkreality.glitch.me/       ">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                        <img src="assets/img/CX spotlight.jpg" alt="CannaXpress Product Page">
                       </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title"> Product Landing Page</p>
+                      <p class="slider--item-description"> Vertically Integrated Licensed Cannabis Distribution, Manufacturing and Cultivation Company based in Long Beach,CA.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a href="https://www.spac3d-vr.co.uk">
                       <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                        <img src="assets/img/favicon.png" alt="SPAC3D-VR">
                       </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">3D Reality Capture Website</p>
+                      <p class="slider--item-description">My first business and how I fell in love with immersive technology. We create immersive contextualized experiences using digital twins.</p>
                     </a>
                   </li>
                 </ul>
@@ -131,8 +152,8 @@
           <li class="l-section section">
             <div class="about">
               <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
+                <h2>I love<br> bringing <br>innvoative<br> ideas's<br>to life.</h2>
+                <a href="#0">Let's Innovate
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                     <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -141,17 +162,17 @@
                     </svg>
                   </span>
                 </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
+                <img src="assets/img/daps.png" alt="About Us">
               </div>
               <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
+                <a href="https://github.com/DapsXR">
+                  <h3>Github</h3>
                 </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
+                <a href="https://www.linkedin.com/in/dapoajisafe/">
+                  <h3>LinkedIn</h3>
                 </a>
-                <a href="#0">
-                  <h3>History</h3>
+                <a href="https://www.instagram.com/dajisafe/?hl=en">
+                  <h3>Socials</h3>
                 </a>
               </div>
             </div>
@@ -159,29 +180,67 @@
           <li class="l-section section">
             <div class="contact">
               <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
-                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
+                <div class="skills"> 
+                  <h1 class="gradient-text">
+                   My Dev Skills
+                  </h1>
+                 </div>
+                <div class="skillset"> 
+                  <div class="modal-1">
+                    <div class="modal--information">
+                      <p class="head">Web Development</p>    
+                    </div>
+                    <ul class="modal--options">
+                      <span>Frontend</span>
+                      <li>HTML 5, CSS3, JS</li>
+                      <span>Frameworks</span>
+                      <li>Reactjs, NextJs</li>
+                      <span>Backend</span>
+                      <li>NodeJs,MongoDB, ExpressJS</li>
+                    </ul>
                   </div>
-                  <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
+                  <div class="modal-2">
+                    <div class="modal--information">
+                      <p>XR Development</p>
+                    </div>
+                    <ul class="modal--options">
+                      <span>3D engines</span>
+                      <li>Unity3D,PlayCanvas,</li>
+                      <span>Frameworks</span>
+                      <li>Threejs,WebGl</li>
+                      <span>3D modelling & Animation</span>
+                      <li>Blender,Vectary,Spline3D</li>
+                    </ul>
+                  </div>
+                  <div class="modal-3">
+                    <div class="modal--information">
+                      <p>Project Specialties</p>
+                    </div>
+                    <ul class="modal--options">
+                      <span>Marketing & Branding</span>
+                      <li>3D product Landing pages,E-commerce</li>
+                      <span>Progressive Web Apps</span>
+                      <li>Telemedicine,Scheduling</li>
+                      <span>SaaS & PaaS</span>
+                      <li>Immersive Technology,Real estate,Healthcare</li>
+                      <span>XR Apps</span>
+                      <li>3D-AR content page,VR tours, AR Image target experiennces</li>
+                    </ul>
+                  </div>
+               </div>
+             </div>
             </div>
           </li>
           <li class="l-section section">
             <div class="hire">
-              <h2>You want us to do</h2>
+              <h1>How can I help with <br>
+              your vision?</h1>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form  action="https://formspree.io/f/xjvlpkvw"
+                method="POST"class="work-request">
                 <div class="work-request--options">
                   <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
+                    <input id="opt-1" type="checkbox" name="responsivewebsite" >
                     <label for="opt-1">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -189,9 +248,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      App Design
+                      Responsive  Website
                     </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <input id="opt-2" type="checkbox" name="webapp" >
                     <label for="opt-2">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -199,9 +258,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Graphic Design
+                      Web App
                     </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
+                    <input id="opt-3" type="checkbox" name="3dlandingpage" >
                     <label for="opt-3">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -209,11 +268,11 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Motion Design
+                      3D Landing Page
                     </label>
                   </span>
                   <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
+                    <input id="opt-4" type="checkbox" name="3dmockups" >
                     <label for="opt-4">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -221,9 +280,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      UX Design
+                      3D Mock-ups
                     </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <input id="opt-5" type="checkbox" name="vrapp" >
                     <label for="opt-5">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -231,9 +290,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Webdesign
+                      VR App
                     </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
+                    <input id="opt-6" type="checkbox" name="arapp">
                     <label for="opt-6">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -241,21 +300,21 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Marketing
+                      AR App
                     </label>
                   </span>
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" type="text" name="name" spellcheck="false">
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" type="email" name="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input type="submit" value="Send Request">
+                    <input type="submit" value="Submit">
               </form>
             </div>
           </li>
@@ -268,7 +327,7 @@
     <li>Works</li>
     <li>About</li>
     <li>Contact</li>
-    <li>Hire us</li>
+    <li>Hire Me</li>
   </ul>
 </div>
 
