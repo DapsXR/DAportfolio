@@ -4,4 +4,4 @@ My personal website to introduce myself as a Software developer ,showcase my web
 
 This project uses HTML5, Sass, jQuery, Hammer.js ,and modelviewer for my 3D character.
 
-Template by: www.BuckyMaler.com/global
+
